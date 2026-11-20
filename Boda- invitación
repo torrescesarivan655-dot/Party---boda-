@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación</title>
+  <style>
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background-color: #ffffff;
+      color: #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .invitacion {
+      max-width: 500px;
+      width: 100%;
+      border: 2px solid #000000;
+      padding: 40px 30px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .subtitulo {
+      font-size: 12px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: normal;
+      margin: 10px 0 20px 0;
+      letter-spacing: 1px;
+    }
+
+    .descripcion {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .detalles {
+      border-top: 1px solid #000000;
+      border-bottom: 1px solid #000000;
+      padding: 20px 0;
+      margin-bottom: 30px;
+    }
+
+    .detalles p {
+      margin: 8px 0;
+      font-size: 15px;
+    }
+
+    .rsvp {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="invitacion">
+    <p class="subtitulo">Estás  invitado a</p>
+    <h1>[BODA FELIZ]</h1>
+    
+    <p class="descripcion">
+      Nos gustaria que asistas a nuestra boda feliz seria un placer en este dia tan feliz l.
+    </p>
+
+    <div class="detalles">
+      <p><strong>Fecha:</strong> Sábado, 15 de diciembre de 2026</p>
+      <p><strong>Hora:</strong> 7:30 PM</p>
+      <p><strong>Lugar:</strong> [Salon loma bonita dureccion av: lucas del oeste  ]</p>
+    </div>
+
+    <p>PADRINOS: marco antonio solis y paquita la del barrio</p>
+  </div>
+
+</body>
+</html>
